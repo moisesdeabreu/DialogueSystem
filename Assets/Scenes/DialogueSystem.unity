@@ -474,12 +474,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogue:
     icon: {fileID: 10901, guid: 0000000000000000f000000000000000, type: 0}
-    title: Nuevo nivel
+    title: Title
     sentences:
-    - 'Has encontrado un nuevo nivel '
-    - 'Sigue adelante, Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-      do eiusmod tempor incididunt ut labore et dolore magna aliqua. '
-    - 3er Sigue adelante, Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    - 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+      incididunt ut labore et dolore magna aliqua. '
+    - 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+      incididunt ut labore et dolore magna aliqua. '
+    - Lorem ipsum dolor sit amet, consectetur adipiscing elit.
     autoHideInSeconds: 2
 --- !u!114 &227313168
 MonoBehaviour:
@@ -667,7 +668,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Error without dialog text
+  m_Text: Log Error without dialog text
 --- !u!222 &456635889
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -795,13 +796,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogue:
-    icon: {fileID: 10901, guid: 0000000000000000f000000000000000, type: 0}
-    title: Nuevo nivel
+    icon: {fileID: 0}
+    title: Title
     sentences:
     - 'Has encontrado un nuevo nivel '
-    - 'Sigue adelante, Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-      do eiusmod tempor incididunt ut labore et dolore magna aliqua. '
-    - 3er Sigue adelante, Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    - 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+      incididunt ut labore et dolore magna aliqua. '
+    - Lorem ipsum dolor sit amet, consectetur adipiscing elit.
     autoHideInSeconds: 2
 --- !u!114 &601958314
 MonoBehaviour:
@@ -1233,13 +1234,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogue:
     icon: {fileID: 0}
-    title: Solo texto
+    title: Text
     sentences:
-    - 'Solo texto Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-      eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-      dolore eu fugiat nulla pariatur. '
+    - 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+      incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+      nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+      Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
+      eu fugiat nulla pariatur. '
     autoHideInSeconds: 0
 --- !u!114 &926632789
 MonoBehaviour:
@@ -1472,7 +1473,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogue:
     icon: {fileID: 0}
-    title: Without dialogue
+    title: Error without text
     sentences: []
     autoHideInSeconds: 0
 --- !u!114 &1508007526
@@ -1739,7 +1740,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogue:
     icon: {fileID: 10901, guid: 0000000000000000f000000000000000, type: 0}
-    title: Mensage con imagen
+    title: Text with icon image
     sentences:
     - 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
       incididunt ut labore et dolore magna aliqua. '
